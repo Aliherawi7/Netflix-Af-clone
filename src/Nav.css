@@ -1,0 +1,47 @@
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 10;
+    height: 30px;
+    transition: background-color 0.3s ease-in-out;
+}
+.nav-dark{
+    background-color: rgba(0, 0, 0, 0.932);
+}
+.nav-logo{
+    position: fixed;
+    left: 20px;
+    width: 90px;
+    object-fit: contain;
+}
+.auth-button{
+    display: flex;
+    position: fixed;
+    right: 20px;
+}
+.nav-button{
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 8px;
+    background-color: #d6101e;
+}
+.nav-button:hover{
+    background-color: #f13945;
+}
+.signup {
+    background-color: #0d36eb;
+    margin-left: 5px;
+}
+.signup:hover {
+    background-color: #2b4ce0;
+    margin-left: 5px;
+}
+

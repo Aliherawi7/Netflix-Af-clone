@@ -1,0 +1,25 @@
+
+.modal{
+    width: 40%;
+    min-height: 50%;
+    border: 1px solid #bfade6;
+    z-index: 300;
+    position: fixed;
+    background-color: #fff;
+    border-radius: 5px;
+    left: 30%;
+    padding: 20px;
+    top: 5%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    .modal{
+        width: 75%;
+        left: 12%;
+        top: 15%;
+        padding: 10px;
+    }
+}
