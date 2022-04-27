@@ -21,7 +21,7 @@
 **1. clone from Github**
  `git clone https://github.com/Aliherawi7/Netflix-Af-clone.git`
 
-**2. Run `npm intasll**
+**2. Run `npm install`**
 
 # Would you like to help and support me?
 * Star Github repository
