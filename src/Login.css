@@ -11,12 +11,14 @@
 form{
     text-align: left;
     width: 70%;
+    position: relative;
 }
 form span{
     color: #000;
     text-align: left;
 }
 form button{
+    cursor: pointer;
     background-color: #d6101e;
     width: 100%;
     font-weight: 500;
@@ -26,6 +28,27 @@ form button{
     border-radius: 5px;
     font-size: 15px;
     margin-top: 5px;
+}
+form button:hover{
+    background-color: #f72e3b; 
+}
+form i{
+    cursor: pointer;
+}
+form .show-password{
+    position: absolute;
+    bottom: 50px;
+    right: 15px;
+}
+form .show-password-signup1{
+    position: absolute;
+    right: 15px;
+    bottom: 114px;
+}
+form .show-password-signup2{
+    position: absolute;
+    right: 15px;
+    bottom: 50px;
 }
 input{
     box-sizing: border-box;

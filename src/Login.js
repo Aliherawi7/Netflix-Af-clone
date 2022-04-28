@@ -1,7 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./Login.css"
 
 function Login() {
+    const [show, setShow] = useState(false)
     return (
         <div className="login">
             <img
@@ -14,7 +15,8 @@ function Login() {
                 <span>Email</span>
                 <input type="email"  />
                 <span>Password</span>
-                <input type="password"  />
+                <i className={`bi bi-eye${show? "":"-slash"}-fill show-password`} onClick={()=> setShow(!show)}></i>
+                <input type={show ? "text":"password"}  />
                 <button>Login</button>
             </form>
         </div>
